@@ -12,7 +12,6 @@ class DatabaseConnector {
             'port' => getenv('DB_PORT'),
             'db'   => getenv('DB_DATABASE'),
             'user' => getenv('DB_USERNAME'),
-            'pass' => getenv('DB_PASSWORD'),
         ];
 
 
